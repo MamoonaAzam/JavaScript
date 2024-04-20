@@ -1,1 +1,0 @@
-//node JavaScript/4.StringToNumber.js
