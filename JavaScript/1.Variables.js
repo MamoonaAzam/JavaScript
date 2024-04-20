@@ -1,6 +1,6 @@
 // conclusion 
 // const value cant be changed
-// its better to use let than var
+// its better to use let than var because of issue of block scope and functional scope
 
 const fname="Mamoona"
 let age=23
