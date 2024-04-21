@@ -1,7 +1,7 @@
 let stringvalue="Hi how are you!"
 console.log(typeof stringvalue)
 
-//2nd way of string declaration
+//2nd way of string declaration - good way
 let stringvalue2= new String("Step by Step") //it will give object type
 console.log(typeof stringvalue2)
 console.log(stringvalue2.substring(0,4))
