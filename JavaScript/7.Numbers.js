@@ -3,8 +3,6 @@
 //Comparing two JavaScript objects always returns false.
 //Number Objects can produce unexpected results:
 
-node JavaScript/7.Numbers.js
-
 let x=new Number(10)
 let y=new Number(10)
 console.log(x==y)
