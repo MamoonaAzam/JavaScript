@@ -16,3 +16,7 @@ console.log("Pushing array to another array")
 Male.push(Female)
 console.log(Male) //it changes male array
 console.log(Male [4][1] .toUpperCase()) // returns SHAE Gill
+
+//-> Dealing with array in array in array using flat 
+console.log("Dealing with array in array using flat")
+const complicatedArray=[1,2,[3,4,5],6,7,[8,[9,10]]]
