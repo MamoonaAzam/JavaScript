@@ -20,3 +20,7 @@ console.log(Male [4][1] .toUpperCase()) // returns SHAE Gill
 //-> Dealing with array in array in array using flat 
 console.log("Dealing with array in array using flat")
 const complicatedArray=[1,2,[3,4,5],6,7,[8,[9,10]]]
+const flatArray=[complicatedArray.flat(Infinity)] //Infinity->hur level tkk means jitny marzi complication ho onhain end krdo agr hum level dy gain tw wo osi level tkk work kry ga
+console.log(flatArray)
+const flatArray2=[complicatedArray.flat(1)] //solve only 1 level of inside array
+console.log(flatArray2)
